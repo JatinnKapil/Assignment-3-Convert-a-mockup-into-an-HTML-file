@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+}
+header {
+    height: 90px;
+    background-color: #161616;
+}
+h1 {
+    color:white;
+    margin-left:80px;
+    padding-top:30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+table {
+  box-shadow: 0px 10px 5px #eee;
+
+}
+
+table,h2 {
+	color: #b22222;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+td {
+	border-bottom: 1px solid #eee;
+	padding: 15px;
+}
+
+.table-row {
+	background-color: #b22222;
+	color: rgba(255, 255, 255, 0.85);
+}
+
+.humid,
+.humid-heading {
+	text-align: right;
+}
+
+.temp,
+.temp-heading {
+	text-align: right;
+	width: 30%;
+}
+
+.data-rows {
+	border-bottom: 1px solid rgba(207, 207, 207, 0.7);
+}
+
+.time-col {
+	background-color: #ddd;
+}
+
+.temp,
+.humid {
+	font-weight: bold;
+}
